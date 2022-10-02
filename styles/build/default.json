@@ -398,62 +398,62 @@
     },
     "type": {
       "0": {
-        "value": "clamp( calc(9.5 / 16 * 1rem), 0.129vw + calc(9.016 / 16 * 1rem), calc(11.5 / 16 * 1rem) )",
+        "value": "clamp( calc(9.5 / 16 * 1rem), 0.129vw + calc(9.016 / 16 * 1rem), calc(11.5 / 16 * 1rem) )",
         "type": "other",
         "description": "Scales font-size gradually from mobile to desktop"
       },
       "1": {
-        "value": "clamp( calc(11 / 16 * 1rem), 0.194vw + calc(10.273 / 16 * 1rem), calc(14 / 16 * 1rem) )",
+        "value": "clamp( calc(11 / 16 * 1rem), 0.194vw + calc(10.273 / 16 * 1rem), calc(14 / 16 * 1rem) )",
         "type": "other",
         "description": "Scales font-size gradually from mobile to desktop"
       },
       "2": {
-        "value": "clamp( calc(13.5 / 16 * 1rem), 0.259vw + calc(12.529 / 16 * 1rem), calc(17.5 / 16 * 1rem) )",
+        "value": "clamp( calc(13.5 / 16 * 1rem), 0.259vw + calc(12.529 / 16 * 1rem), calc(17.5 / 16 * 1rem) )",
         "type": "other",
         "description": "Scales font-size gradually from mobile to desktop"
       },
       "3": {
-        "value": "clamp( calc(16 / 16 * 1rem), 0.388vw + calc(14.545 / 16 * 1rem), calc(22 / 16 * 1rem) )",
+        "value": "clamp( calc(16 / 16 * 1rem), 0.388vw + calc(14.545 / 16 * 1rem), calc(22 / 16 * 1rem) )",
         "type": "other",
         "description": "Scales font-size gradually from mobile to desktop"
       },
       "4": {
-        "value": "clamp( calc(19 / 16 * 1rem), 0.55vw + calc(16.938 / 16 * 1rem), calc(27.5 / 16 * 1rem) )",
+        "value": "clamp( calc(19 / 16 * 1rem), 0.55vw + calc(16.938 / 16 * 1rem), calc(27.5 / 16 * 1rem) )",
         "type": "other",
         "description": "Scales font-size gradually from mobile to desktop"
       },
       "5": {
-        "value": "clamp( calc(23 / 16 * 1rem), 0.744vw + calc(20.21 / 16 * 1rem), calc(34.5 / 16 * 1rem) )",
+        "value": "clamp( calc(23 / 16 * 1rem), 0.744vw + calc(20.21 / 16 * 1rem), calc(34.5 / 16 * 1rem) )",
         "type": "other",
         "description": "Scales font-size gradually from mobile to desktop"
       },
       "6": {
-        "value": "clamp( calc(27.5 / 16 * 1rem), 1.003vw + calc(23.739 / 16 * 1rem), calc(43 / 16 * 1rem) )",
+        "value": "clamp( calc(27.5 / 16 * 1rem), 1.003vw + calc(23.739 / 16 * 1rem), calc(43 / 16 * 1rem) )",
         "type": "other",
         "description": "Scales font-size gradually from mobile to desktop"
       },
       "7": {
-        "value": "clamp( calc(33 / 16 * 1rem), 1.327vw + calc(28.024 / 16 * 1rem), calc(53.5 / 16 * 1rem) )",
+        "value": "clamp( calc(33 / 16 * 1rem), 1.327vw + calc(28.024 / 16 * 1rem), calc(53.5 / 16 * 1rem) )",
         "type": "other",
         "description": "Scales font-size gradually from mobile to desktop"
       },
       "8": {
-        "value": "clamp( calc(40 / 16 * 1rem), 1.748vw + calc(33.445 / 16 * 1rem), calc(67 / 16 * 1rem) )",
+        "value": "clamp( calc(40 / 16 * 1rem), 1.748vw + calc(33.445 / 16 * 1rem), calc(67 / 16 * 1rem) )",
         "type": "other",
         "description": "Scales font-size gradually from mobile to desktop"
       },
       "9": {
-        "value": "clamp( calc(48 / 16 * 1rem), 2.33vw + calc(39.263 / 16 * 1rem), calc(84 / 16 * 1rem) )",
+        "value": "clamp( calc(48 / 16 * 1rem), 2.33vw + calc(39.263 / 16 * 1rem), calc(84 / 16 * 1rem) )",
         "type": "other",
         "description": "Scales font-size gradually from mobile to desktop"
       },
       "10": {
-        "value": "clamp( calc(57.5 / 16 * 1rem), 3.074vw + calc(45.972 / 16 * 1rem), calc(105 / 16 * 1rem) )",
+        "value": "clamp( calc(57.5 / 16 * 1rem), 3.074vw + calc(45.972 / 16 * 1rem), calc(105 / 16 * 1rem) )",
         "type": "other",
         "description": "Scales font-size gradually from mobile to desktop"
       },
       "11": {
-        "value": "clamp( calc(69 / 16 * 1rem), 4.013vw + calc(53.951 / 16 * 1rem), calc(131 / 16 * 1rem) )",
+        "value": "clamp( calc(69 / 16 * 1rem), 4.013vw + calc(53.951 / 16 * 1rem), calc(131 / 16 * 1rem) )",
         "type": "other",
         "description": "Scales font-size gradually from mobile to desktop"
       }
