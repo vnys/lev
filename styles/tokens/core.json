@@ -91,6 +91,56 @@
         "value": "({fontSize.mobile.11} - {fontSize.hd.11}) / ({viewport.mobile} - {viewport.hd}) * 100",
         "type": "other"
       }
+    },
+    "intercept": {
+      "0": {
+        "value": "{fontSize.mobile.0} - ({scale.slope.0} / 100) * {viewport.mobile}",
+        "type": "other"
+      },
+      "1": {
+        "value": "{fontSize.mobile.1} - ({scale.slope.1} / 100) * {viewport.mobile}",
+        "type": "other"
+      },
+      "2": {
+        "value": "{fontSize.mobile.2} - ({scale.slope.2} / 100) * {viewport.mobile}",
+        "type": "other"
+      },
+      "3": {
+        "value": "{fontSize.mobile.3} - ({scale.slope.3} / 100) * {viewport.mobile}",
+        "type": "other"
+      },
+      "4": {
+        "value": "{fontSize.mobile.4} - ({scale.slope.4} / 100) * {viewport.mobile}",
+        "type": "other"
+      },
+      "5": {
+        "value": "{fontSize.mobile.5} - ({scale.slope.5} / 100) * {viewport.mobile}",
+        "type": "other"
+      },
+      "6": {
+        "value": "{fontSize.mobile.6} - ({scale.slope.6} / 100) * {viewport.mobile}",
+        "type": "other"
+      },
+      "7": {
+        "value": "{fontSize.mobile.7} - ({scale.slope.7} / 100) * {viewport.mobile}",
+        "type": "other"
+      },
+      "8": {
+        "value": "{fontSize.mobile.8} - ({scale.slope.8} / 100) * {viewport.mobile}",
+        "type": "other"
+      },
+      "9": {
+        "value": "{fontSize.mobile.9} - ({scale.slope.9} / 100) * {viewport.mobile}",
+        "type": "other"
+      },
+      "10": {
+        "value": "{fontSize.mobile.10} - ({scale.slope.10} / 100) * {viewport.mobile}",
+        "type": "other"
+      },
+      "11": {
+        "value": "{fontSize.mobile.11} - ({scale.slope.11} / 100) * {viewport.mobile}",
+        "type": "other"
+      }
     }
   },
   "viewport": {
