@@ -1,16 +1,26 @@
 {
-  "scale": {
-    "f0": {
-      "value": "16",
+  "const": {
+    "theme": {
+      "value": "mobile",
       "type": "other"
+    },
+    "f0": {
+      "theme": {
+        "value": "{const.f0.mobile}",
+        "type": "other"
+      }
     },
     "n": {
-      "value": "1",
-      "type": "other"
+      "theme": {
+        "value": "{const.n.mobile}",
+        "type": "other"
+      }
     },
     "r": {
-      "value": "1.2",
-      "type": "other"
+      "theme": {
+        "value": "{const.r.mobile}",
+        "type": "other"
+      }
     }
   }
 }

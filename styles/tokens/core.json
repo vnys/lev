@@ -12,6 +12,10 @@
       "hd": {
         "value": "22",
         "type": "other"
+      },
+      "theme": {
+        "value": "{const.f0.hd}",
+        "type": "other"
       }
     },
     "n": {
@@ -26,6 +30,10 @@
       "hd": {
         "value": "1",
         "type": "other"
+      },
+      "theme": {
+        "value": "{const.n.hd}",
+        "type": "other"
       }
     },
     "r": {
@@ -39,6 +47,10 @@
       },
       "hd": {
         "value": "1.25",
+        "type": "other"
+      },
+      "theme": {
+        "value": "{const.r.hd}",
         "type": "other"
       }
     },
@@ -196,7 +208,7 @@
         "description": "Scales font-size gradually from mobile to desktop"
       },
       "6": {
-        "value": "clamp( calc({fontSize.mobile.6} / {fconst.fontSize.root} * 1rem), {scale.slope.6}vw + calc({scale.intercept.6} / {const.fontSize.root} * 1rem), calc({fontSize.hd.6} / {const.fontSize.root} * 1rem) )",
+        "value": "clamp( calc({fontSize.mobile.6} / {const.fontSize.root} * 1rem), {scale.slope.6}vw + calc({scale.intercept.6} / {const.fontSize.root} * 1rem), calc({fontSize.hd.6} / {const.fontSize.root} * 1rem) )",
         "type": "other",
         "description": "Scales font-size gradually from mobile to desktop"
       },
@@ -330,51 +342,101 @@
     },
     "hd": {
       "0": {
-        "value": "5*roundTo(({const.f0.hd}*{const.r.hd}^(-3/{const.n.hd})/5),1)",
+        "value": "5*roundTo(({const.f0.hd}*{const.r.hd}^(-3/{const.n.theme})/5),1)",
         "type": "fontSizes"
       },
       "1": {
-        "value": "5*roundTo(({const.f0.hd}*{const.r.hd}^(-2/{const.n.hd})/5),1)",
+        "value": "5*roundTo(({const.f0.hd}*{const.r.hd}^(-2/{const.n.theme})/5),1)",
         "type": "fontSizes"
       },
       "2": {
-        "value": "5*roundTo(({const.f0.hd}*{const.r.hd}^(-1/{const.n.hd})/5),1)",
+        "value": "5*roundTo(({const.f0.hd}*{const.r.hd}^(-1/{const.n.theme})/5),1)",
         "type": "fontSizes"
       },
       "3": {
-        "value": "5*roundTo(({const.f0.hd}*{const.r.hd}^(0/{const.n.hd})/5),1)",
+        "value": "5*roundTo(({const.f0.hd}*{const.r.hd}^(0/{const.n.theme})/5),1)",
         "type": "fontSizes"
       },
       "4": {
-        "value": "5*roundTo(({const.f0.hd}*{const.r.hd}^(1/{const.n.hd})/5),1)",
+        "value": "5*roundTo(({const.f0.hd}*{const.r.hd}^(1/{const.n.theme})/5),1)",
         "type": "fontSizes"
       },
       "5": {
-        "value": "5*roundTo(({const.f0.hd}*{const.r.hd}^(2/{const.n.hd})/5),1)",
+        "value": "5*roundTo(({const.f0.hd}*{const.r.hd}^(2/{const.n.theme})/5),1)",
         "type": "fontSizes"
       },
       "6": {
-        "value": "5*roundTo(({const.f0.hd}*{const.r.hd}^(3/{const.n.hd})/5),1)",
+        "value": "5*roundTo(({const.f0.hd}*{const.r.hd}^(3/{const.n.theme})/5),1)",
         "type": "fontSizes"
       },
       "7": {
-        "value": "5*roundTo(({const.f0.hd}*{const.r.hd}^(4/{const.n.hd})/5),1)",
+        "value": "5*roundTo(({const.f0.hd}*{const.r.hd}^(4/{const.n.theme})/5),1)",
         "type": "fontSizes"
       },
       "8": {
-        "value": "5*roundTo(({const.f0.hd}*{const.r.hd}^(5/{const.n.hd})/5),1)",
+        "value": "5*roundTo(({const.f0.hd}*{const.r.hd}^(5/{const.n.theme})/5),1)",
         "type": "fontSizes"
       },
       "9": {
-        "value": "5*roundTo(({const.f0.hd}*{const.r.hd}^(6/{const.n.hd})/5),1)",
+        "value": "5*roundTo(({const.f0.hd}*{const.r.hd}^(6/{const.n.theme})/5),1)",
         "type": "fontSizes"
       },
       "10": {
-        "value": "5*roundTo(({const.f0.hd}*{const.r.hd}^(7/{const.n.hd})/5),1)",
+        "value": "5*roundTo(({const.f0.hd}*{const.r.hd}^(7/{const.n.theme})/5),1)",
         "type": "fontSizes"
       },
       "11": {
-        "value": "5*roundTo(({const.f0.hd}*{const.r.hd}^(8/{const.n.hd})/5),1)",
+        "value": "5*roundTo(({const.f0.hd}*{const.r.hd}^(8/{const.n.theme})/5),1)",
+        "type": "fontSizes"
+      }
+    },
+    "theme": {
+      "0": {
+        "value": "5*roundTo(({const.f0.theme}*{const.r.theme}^(-3/{const.n.theme})/5),1)",
+        "type": "fontSizes"
+      },
+      "1": {
+        "value": "5*roundTo(({const.f0.theme}*{const.r.theme}^(-2/{const.n.theme})/5),1)",
+        "type": "fontSizes"
+      },
+      "2": {
+        "value": "5*roundTo(({const.f0.theme}*{const.r.theme}^(-1/{const.n.theme})/5),1)",
+        "type": "fontSizes"
+      },
+      "3": {
+        "value": "5*roundTo(({const.f0.theme}*{const.r.theme}^(0/{const.n.theme})/5),1)",
+        "type": "fontSizes"
+      },
+      "4": {
+        "value": "5*roundTo(({const.f0.theme}*{const.r.theme}^(1/{const.n.theme})/5),1)",
+        "type": "fontSizes"
+      },
+      "5": {
+        "value": "5*roundTo(({const.f0.theme}*{const.r.theme}^(2/{const.n.theme})/5),1)",
+        "type": "fontSizes"
+      },
+      "6": {
+        "value": "5*roundTo(({const.f0.theme}*{const.r.theme}^(3/{const.n.theme})/5),1)",
+        "type": "fontSizes"
+      },
+      "7": {
+        "value": "5*roundTo(({const.f0.theme}*{const.r.theme}^(4/{const.n.theme})/5),1)",
+        "type": "fontSizes"
+      },
+      "8": {
+        "value": "5*roundTo(({const.f0.theme}*{const.r.theme}^(5/{const.n.theme})/5),1)",
+        "type": "fontSizes"
+      },
+      "9": {
+        "value": "5*roundTo(({const.f0.theme}*{const.r.theme}^(6/{const.n.theme})/5),1)",
+        "type": "fontSizes"
+      },
+      "10": {
+        "value": "5*roundTo(({const.f0.theme}*{const.r.theme}^(7/{const.n.theme})/5),1)",
+        "type": "fontSizes"
+      },
+      "11": {
+        "value": "5*roundTo(({const.f0.theme}*{const.r.theme}^(8/{const.n.theme})/5),1)",
         "type": "fontSizes"
       }
     }

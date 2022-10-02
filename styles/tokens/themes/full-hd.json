@@ -1,16 +1,26 @@
 {
-  "scale": {
-    "f0": {
-      "value": "22",
+  "const": {
+    "theme": {
+      "value": "hd",
       "type": "other"
+    },
+    "f0": {
+      "theme": {
+        "value": "{const.f0.hd}",
+        "type": "other"
+      }
     },
     "n": {
-      "value": "1",
-      "type": "other"
+      "theme": {
+        "value": "{const.n.hd}",
+        "type": "other"
+      }
     },
     "r": {
-      "value": "1.25",
-      "type": "other"
+      "theme": {
+        "value": "{const.r.hd}",
+        "type": "other"
+      }
     }
   }
 }

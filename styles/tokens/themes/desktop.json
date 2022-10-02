@@ -1,16 +1,26 @@
 {
-  "scale": {
-    "f0": {
-      "value": "20.13",
+  "const": {
+    "theme": {
+      "value": "desktop",
       "type": "other"
+    },
+    "f0": {
+      "theme": {
+        "value": "{const.f0.desktop}",
+        "type": "other"
+      }
     },
     "n": {
-      "value": "1",
-      "type": "other"
+      "theme": {
+        "value": "{const.n.desktop}",
+        "type": "other"
+      }
     },
     "r": {
-      "value": "1.238",
-      "type": "other"
+      "theme": {
+        "value": "{const.r.desktop}",
+        "type": "other"
+      }
     }
   }
 }
