@@ -178,62 +178,62 @@
     },
     "type": {
       "0": {
-        "value": "clamp( calc({fontSize.mobile.0} / {const.fontSize.root} * 1rem), {scale.slope.0}vw + calc({scale.intercept.0} / {const.fontSize.root} * 1rem), calc({fontSize.hd.0} / {const.fontSize.root} * 1rem) )",
+        "value": "clamp( calc({fontSize.mobile.0} / {const.fontSize.root} * 1rem), {scale.slope.0}vw + calc({scale.intercept.0} / {const.fontSize.root} * 1rem), calc({fontSize.hd.0} / {const.fontSize.root} * 1rem) )",
         "type": "other",
         "description": "Scales font-size gradually from mobile to desktop"
       },
       "1": {
-        "value": "clamp( calc({fontSize.mobile.1} / {const.fontSize.root} * 1rem), {scale.slope.1}vw + calc({scale.intercept.1} / {const.fontSize.root} * 1rem), calc({fontSize.hd.1} / {const.fontSize.root} * 1rem) )",
+        "value": "clamp( calc({fontSize.mobile.1} / {const.fontSize.root} * 1rem), {scale.slope.1}vw + calc({scale.intercept.1} / {const.fontSize.root} * 1rem), calc({fontSize.hd.1} / {const.fontSize.root} * 1rem) )",
         "type": "other",
         "description": "Scales font-size gradually from mobile to desktop"
       },
       "2": {
-        "value": "clamp( calc({fontSize.mobile.2} / {const.fontSize.root} * 1rem), {scale.slope.2}vw + calc({scale.intercept.2} / {const.fontSize.root} * 1rem), calc({fontSize.hd.2} / {const.fontSize.root} * 1rem) )",
+        "value": "clamp( calc({fontSize.mobile.2} / {const.fontSize.root} * 1rem), {scale.slope.2}vw + calc({scale.intercept.2} / {const.fontSize.root} * 1rem), calc({fontSize.hd.2} / {const.fontSize.root} * 1rem) )",
         "type": "other",
         "description": "Scales font-size gradually from mobile to desktop"
       },
       "3": {
-        "value": "clamp( calc({fontSize.mobile.3} / {const.fontSize.root} * 1rem), {scale.slope.3}vw + calc({scale.intercept.3} / {const.fontSize.root} * 1rem), calc({fontSize.hd.3} / {const.fontSize.root} * 1rem) )",
+        "value": "clamp( calc({fontSize.mobile.3} / {const.fontSize.root} * 1rem), {scale.slope.3}vw + calc({scale.intercept.3} / {const.fontSize.root} * 1rem), calc({fontSize.hd.3} / {const.fontSize.root} * 1rem) )",
         "type": "other",
         "description": "Scales font-size gradually from mobile to desktop"
       },
       "4": {
-        "value": "clamp( calc({fontSize.mobile.4} / {const.fontSize.root} * 1rem), {scale.slope.4}vw + calc({scale.intercept.4} / {const.fontSize.root} * 1rem), calc({fontSize.hd.4} / {const.fontSize.root} * 1rem) )",
+        "value": "clamp( calc({fontSize.mobile.4} / {const.fontSize.root} * 1rem), {scale.slope.4}vw + calc({scale.intercept.4} / {const.fontSize.root} * 1rem), calc({fontSize.hd.4} / {const.fontSize.root} * 1rem) )",
         "type": "other",
         "description": "Scales font-size gradually from mobile to desktop"
       },
       "5": {
-        "value": "clamp( calc({fontSize.mobile.5} / {const.fontSize.root} * 1rem), {scale.slope.5}vw + calc({scale.intercept.5} / {const.fontSize.root} * 1rem), calc({fontSize.hd.5} / {const.fontSize.root} * 1rem) )",
+        "value": "clamp( calc({fontSize.mobile.5} / {const.fontSize.root} * 1rem), {scale.slope.5}vw + calc({scale.intercept.5} / {const.fontSize.root} * 1rem), calc({fontSize.hd.5} / {const.fontSize.root} * 1rem) )",
         "type": "other",
         "description": "Scales font-size gradually from mobile to desktop"
       },
       "6": {
-        "value": "clamp( calc({fontSize.mobile.6} / {const.fontSize.root} * 1rem), {scale.slope.6}vw + calc({scale.intercept.6} / {const.fontSize.root} * 1rem), calc({fontSize.hd.6} / {const.fontSize.root} * 1rem) )",
+        "value": "clamp( calc({fontSize.mobile.6} / {const.fontSize.root} * 1rem), {scale.slope.6}vw + calc({scale.intercept.6} / {const.fontSize.root} * 1rem), calc({fontSize.hd.6} / {const.fontSize.root} * 1rem) )",
         "type": "other",
         "description": "Scales font-size gradually from mobile to desktop"
       },
       "7": {
-        "value": "clamp( calc({fontSize.mobile.7} / {const.fontSize.root} * 1rem), {scale.slope.7}vw + calc({scale.intercept.7} / {const.fontSize.root} * 1rem), calc({fontSize.hd.7} / {const.fontSize.root} * 1rem) )",
+        "value": "clamp( calc({fontSize.mobile.7} / {const.fontSize.root} * 1rem), {scale.slope.7}vw + calc({scale.intercept.7} / {const.fontSize.root} * 1rem), calc({fontSize.hd.7} / {const.fontSize.root} * 1rem) )",
         "type": "other",
         "description": "Scales font-size gradually from mobile to desktop"
       },
       "8": {
-        "value": "clamp( calc({fontSize.mobile.8} / {const.fontSize.root} * 1rem), {scale.slope.8}vw + calc({scale.intercept.8} / {const.fontSize.root} * 1rem), calc({fontSize.hd.8} / {const.fontSize.root} * 1rem) )",
+        "value": "clamp( calc({fontSize.mobile.8} / {const.fontSize.root} * 1rem), {scale.slope.8}vw + calc({scale.intercept.8} / {const.fontSize.root} * 1rem), calc({fontSize.hd.8} / {const.fontSize.root} * 1rem) )",
         "type": "other",
         "description": "Scales font-size gradually from mobile to desktop"
       },
       "9": {
-        "value": "clamp( calc({fontSize.mobile.9} / {const.fontSize.root} * 1rem), {scale.slope.9}vw + calc({scale.intercept.9} / {const.fontSize.root} * 1rem), calc({fontSize.hd.9} / {const.fontSize.root} * 1rem) )",
+        "value": "clamp( calc({fontSize.mobile.9} / {const.fontSize.root} * 1rem), {scale.slope.9}vw + calc({scale.intercept.9} / {const.fontSize.root} * 1rem), calc({fontSize.hd.9} / {const.fontSize.root} * 1rem) )",
         "type": "other",
         "description": "Scales font-size gradually from mobile to desktop"
       },
       "10": {
-        "value": "clamp( calc({fontSize.mobile.10} / {const.fontSize.root} * 1rem), {scale.slope.10}vw + calc({scale.intercept.10} / {fontSize.mobile.3} * 1rem), calc({fontSize.hd.10} / {fontSize.mobile.3} * 1rem) )",
+        "value": "clamp( calc({fontSize.mobile.10} / {const.fontSize.root} * 1rem), {scale.slope.10}vw + calc({scale.intercept.10} / {fontSize.mobile.3} * 1rem), calc({fontSize.hd.10} / {fontSize.mobile.3} * 1rem) )",
         "type": "other",
         "description": "Scales font-size gradually from mobile to desktop"
       },
       "11": {
-        "value": "clamp( calc({fontSize.mobile.11} / {const.fontSize.root} * 1rem), {scale.slope.11}vw + calc({scale.intercept.11} / {fontSize.mobile.3} * 1rem), calc({fontSize.hd.11} / {fontSize.mobile.3} * 1rem) )",
+        "value": "clamp( calc({fontSize.mobile.11} / {const.fontSize.root} * 1rem), {scale.slope.11}vw + calc({scale.intercept.11} / {fontSize.mobile.3} * 1rem), calc({fontSize.hd.11} / {fontSize.mobile.3} * 1rem) )",
         "type": "other",
         "description": "Scales font-size gradually from mobile to desktop"
       }
