@@ -1,39 +1,13 @@
 [
   {
-    "id": "95e87fd1c7a0e5d363467e62441efcdef2a5cde4",
-    "name": "light",
-    "selectedTokenSets": {
-      "core": "source",
-      "semantic": "enabled",
-      "dark": "disabled",
-      "themes/mobile": "disabled",
-      "themes/desktop": "disabled",
-      "themes/full-hd": "disabled"
-    },
-    "$figmaStyleReferences": {}
-  },
-  {
-    "id": "b7b8d418f6ddabae0e83d98b14000a879b93e985",
-    "name": "dark",
-    "selectedTokenSets": {
-      "core": "source",
-      "semantic": "enabled",
-      "dark": "enabled",
-      "themes/mobile": "disabled",
-      "themes/desktop": "disabled",
-      "themes/full-hd": "disabled"
-    },
-    "$figmaStyleReferences": {}
-  },
-  {
     "id": "7adc7841148aab0ca8cf7f60318073a4b296b8f9",
     "name": "default",
     "selectedTokenSets": {
-      "core": "source",
+      "core": "enabled",
       "semantic": "enabled",
       "dark": "disabled",
       "themes/mobile": "disabled",
-      "themes/desktop": "enabled",
+      "themes/desktop": "disabled",
       "themes/full-hd": "disabled"
     },
     "$figmaStyleReferences": {}
