@@ -41,6 +41,70 @@
         "value": "1.2",
         "type": "other"
       }
+    },
+    "slope": {
+      "0": {
+        "value": "({fontSize.mobile.0} - {fontSize.hd.0}) / ({viewport.mobile} - {viewport.hd}) * 100",
+        "type": "other"
+      },
+      "1": {
+        "value": "({fontSize.mobile.1} - {fontSize.hd.1}) / ({viewport.mobile} - {viewport.hd}) * 100",
+        "type": "other"
+      },
+      "2": {
+        "value": "({fontSize.mobile.2} - {fontSize.hd.2}) / ({viewport.mobile} - {viewport.hd}) * 100",
+        "type": "other"
+      },
+      "3": {
+        "value": "({fontSize.mobile.3} - {fontSize.hd.3}) / ({viewport.mobile} - {viewport.hd}) * 100",
+        "type": "other"
+      },
+      "4": {
+        "value": "({fontSize.mobile.4} - {fontSize.hd.4}) / ({viewport.mobile} - {viewport.hd}) * 100",
+        "type": "other"
+      },
+      "5": {
+        "value": "({fontSize.mobile.5} - {fontSize.hd.5}) / ({viewport.mobile} - {viewport.hd}) * 100",
+        "type": "other"
+      },
+      "6": {
+        "value": "({fontSize.mobile.6} - {fontSize.hd.6}) / ({viewport.mobile} - {viewport.hd}) * 100",
+        "type": "other"
+      },
+      "7": {
+        "value": "({fontSize.mobile.7} - {fontSize.hd.7}) / ({viewport.mobile} - {viewport.hd}) * 100",
+        "type": "other"
+      },
+      "8": {
+        "value": "({fontSize.mobile.8} - {fontSize.hd.8}) / ({viewport.mobile} - {viewport.hd}) * 100",
+        "type": "other"
+      },
+      "9": {
+        "value": "({fontSize.mobile.9} - {fontSize.hd.9}) / ({viewport.mobile} - {viewport.hd}) * 100",
+        "type": "other"
+      },
+      "10": {
+        "value": "({fontSize.mobile.10} - {fontSize.hd.10}) / ({viewport.mobile} - {viewport.hd}) * 100",
+        "type": "other"
+      },
+      "11": {
+        "value": "({fontSize.mobile.11} - {fontSize.hd.11}) / ({viewport.mobile} - {viewport.hd}) * 100",
+        "type": "other"
+      }
+    }
+  },
+  "viewport": {
+    "hd": {
+      "value": "1920",
+      "type": "other"
+    },
+    "desktop": {
+      "value": "1440",
+      "type": "other"
+    },
+    "mobile": {
+      "value": "375",
+      "type": "other"
     }
   },
   "fontSize": {
