@@ -1,0 +1,34 @@
+{
+  "color": {
+    "text": {
+      "default": {
+        "value": "{color.neutrals.1}",
+        "type": "color"
+      },
+      "link": {
+        "value": "{color.brand.MistBlue}",
+        "type": "color"
+      },
+      "header": {
+        "value": "{color.brand.MistBlue}",
+        "type": "color"
+      }
+    },
+    "table": {
+      "cell": {
+        "value": "{color.brand.SlateBlue}",
+        "type": "color"
+      },
+      "border": {
+        "value": "{color.neutrals.1}",
+        "type": "color"
+      }
+    },
+    "page": {
+      "bg": {
+        "value": "{color.brand.SlateBlue}",
+        "type": "color"
+      }
+    }
+  }
+}
