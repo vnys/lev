@@ -4,7 +4,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "tokens:transform": "token-transformer styles/tokens --theme --themeOutputPath styles/build --expandTypography",
+    "tokens:build": "node build.js"
   },
   "dependencies": {
     "next": "12.1.4",
@@ -13,6 +15,8 @@
   },
   "devDependencies": {
     "eslint": "8.12.0",
-    "eslint-config-next": "12.1.4"
+    "eslint-config-next": "12.1.4",
+    "style-dictionary": "^3.7.1",
+    "token-transformer": "^0.0.27"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "_test": {
+    "foo": {
+      "bar": {
+        "value": "baz",
+        "type": "other"
+      },
+      "baz": {
+        "value": "{foo.bar}",
+        "type": "other"
+      },
+      "fontSize": {
+        "typeScale-1": {
+          "value": "roundTo(16.324234,1)",
+          "type": "fontSizes"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,697 @@
+{
+  "typography": {
+    "leading": {
+      "lineHeight": {
+        "value": "150%",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": 34.5,
+        "type": "fontSize"
+      },
+      "fontFamily": {
+        "value": "Inter",
+        "type": "fontFamily"
+      },
+      "fontWeight": {
+        "value": "Regular",
+        "type": "fontWeight"
+      }
+    },
+    "h1": {
+      "fontFamily": {
+        "value": "Inter",
+        "type": "fontFamily"
+      },
+      "fontWeight": {
+        "value": "Medium",
+        "type": "fontWeight"
+      },
+      "lineHeight": {
+        "value": "70%",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": 84,
+        "type": "fontSize"
+      }
+    },
+    "h2": {
+      "fontFamily": {
+        "value": "Inter",
+        "type": "fontFamily"
+      },
+      "fontWeight": {
+        "value": "Medium",
+        "type": "fontWeight"
+      },
+      "lineHeight": {
+        "value": "70%",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": 34.5,
+        "type": "fontSize"
+      },
+      "letterSpacing": {
+        "value": "20%",
+        "type": "letterSpacing"
+      }
+    },
+    "h3": {
+      "fontFamily": {
+        "value": "Inter",
+        "type": "fontFamily"
+      },
+      "fontWeight": {
+        "value": "Medium",
+        "type": "fontWeight"
+      },
+      "lineHeight": {
+        "value": "70%",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": 22,
+        "type": "fontSize"
+      },
+      "letterSpacing": {
+        "value": "20%",
+        "type": "letterSpacing"
+      }
+    },
+    "paragraph": {
+      "fontFamily": {
+        "value": "Inter",
+        "type": "fontFamily"
+      },
+      "fontWeight": {
+        "value": "Regular",
+        "type": "fontWeight"
+      },
+      "lineHeight": {
+        "value": "150%",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": 22,
+        "type": "fontSize"
+      }
+    },
+    "small": {
+      "fontFamily": {
+        "value": "Inter",
+        "type": "fontFamily"
+      },
+      "fontWeight": {
+        "value": "Regular",
+        "type": "fontWeight"
+      },
+      "lineHeight": {
+        "value": "150%",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": 17.5,
+        "type": "fontSize"
+      }
+    }
+  },
+  "color": {
+    "text": {
+      "default": {
+        "value": "#333",
+        "type": "color"
+      },
+      "link": {
+        "value": "#007079",
+        "type": "color"
+      },
+      "header": {
+        "value": "#333",
+        "type": "color"
+      }
+    },
+    "table": {
+      "cell": {
+        "value": "#fff",
+        "type": "color"
+      },
+      "border": {
+        "value": "#000",
+        "type": "color"
+      }
+    },
+    "page": {
+      "bg": {
+        "value": "#fff",
+        "type": "color"
+      }
+    },
+    "brand": {
+      "EnergyRed": {
+        "value": "#ff1243",
+        "type": "color"
+      },
+      "MossGreen": {
+        "value": "#007079",
+        "type": "color"
+      },
+      "SlateBlue": {
+        "value": "#243746",
+        "type": "color"
+      },
+      "MistBlue": {
+        "value": "#dff5ff",
+        "type": "color"
+      },
+      "LichenGreen": {
+        "value": "#e6faec",
+        "type": "color"
+      },
+      "SpruceWood": {
+        "value": "#ffe7d6",
+        "type": "color"
+      }
+    },
+    "neutrals": {
+      "1": {
+        "value": "#fff",
+        "type": "color"
+      },
+      "2": {
+        "value": "#ccc",
+        "type": "color"
+      },
+      "3": {
+        "value": "#999",
+        "type": "color"
+      },
+      "4": {
+        "value": "#666",
+        "type": "color"
+      },
+      "5": {
+        "value": "#333",
+        "type": "color"
+      },
+      "6": {
+        "value": "#000",
+        "type": "color"
+      }
+    }
+  },
+  "textDecoration": {
+    "link": {
+      "value": "underline",
+      "type": "textDecoration"
+    },
+    "default": {
+      "value": "none",
+      "type": "textDecoration"
+    },
+    "underline": {
+      "value": "underline",
+      "type": "textDecoration"
+    },
+    "none": {
+      "value": "none",
+      "type": "textDecoration"
+    }
+  },
+  "const": {
+    "f0": {
+      "mobile": {
+        "value": 16,
+        "type": "other"
+      },
+      "desktop": {
+        "value": 20.13,
+        "type": "other"
+      },
+      "hd": {
+        "value": 22,
+        "type": "other"
+      },
+      "theme": {
+        "value": 22,
+        "type": "other"
+      }
+    },
+    "n": {
+      "mobile": {
+        "value": 1,
+        "type": "other"
+      },
+      "desktop": {
+        "value": 1,
+        "type": "other"
+      },
+      "hd": {
+        "value": 1,
+        "type": "other"
+      },
+      "theme": {
+        "value": 1,
+        "type": "other"
+      }
+    },
+    "r": {
+      "mobile": {
+        "value": 1.2,
+        "type": "other"
+      },
+      "desktop": {
+        "value": 1.238,
+        "type": "other"
+      },
+      "hd": {
+        "value": 1.25,
+        "type": "other"
+      },
+      "theme": {
+        "value": 1.25,
+        "type": "other"
+      }
+    },
+    "viewport": {
+      "hd": {
+        "value": 1920,
+        "type": "other"
+      },
+      "desktop": {
+        "value": 1440,
+        "type": "other"
+      },
+      "mobile": {
+        "value": 375,
+        "type": "other"
+      }
+    },
+    "fontSize": {
+      "root": {
+        "value": 16,
+        "type": "other"
+      }
+    }
+  },
+  "scale": {
+    "slope": {
+      "0": {
+        "value": 0.129,
+        "type": "other"
+      },
+      "1": {
+        "value": 0.194,
+        "type": "other"
+      },
+      "2": {
+        "value": 0.259,
+        "type": "other"
+      },
+      "3": {
+        "value": 0.388,
+        "type": "other"
+      },
+      "4": {
+        "value": 0.55,
+        "type": "other"
+      },
+      "5": {
+        "value": 0.744,
+        "type": "other"
+      },
+      "6": {
+        "value": 1.003,
+        "type": "other"
+      },
+      "7": {
+        "value": 1.327,
+        "type": "other"
+      },
+      "8": {
+        "value": 1.748,
+        "type": "other"
+      },
+      "9": {
+        "value": 2.33,
+        "type": "other"
+      },
+      "10": {
+        "value": 3.074,
+        "type": "other"
+      },
+      "11": {
+        "value": 4.013,
+        "type": "other"
+      }
+    },
+    "intercept": {
+      "0": {
+        "value": 9.016,
+        "type": "other"
+      },
+      "1": {
+        "value": 10.273,
+        "type": "other"
+      },
+      "2": {
+        "value": 12.529,
+        "type": "other"
+      },
+      "3": {
+        "value": 14.545,
+        "type": "other"
+      },
+      "4": {
+        "value": 16.938,
+        "type": "other"
+      },
+      "5": {
+        "value": 20.21,
+        "type": "other"
+      },
+      "6": {
+        "value": 23.739,
+        "type": "other"
+      },
+      "7": {
+        "value": 28.024,
+        "type": "other"
+      },
+      "8": {
+        "value": 33.445,
+        "type": "other"
+      },
+      "9": {
+        "value": 39.263,
+        "type": "other"
+      },
+      "10": {
+        "value": 45.972,
+        "type": "other"
+      },
+      "11": {
+        "value": 53.951,
+        "type": "other"
+      }
+    },
+    "type": {
+      "0": {
+        "value": "clamp( calc(9.5 / 16 * 1rem), 0.129vw + calc(9.016 / 16 * 1rem), calc(11.5 / 16 * 1rem) )",
+        "type": "other",
+        "description": "Scales font-size gradually from mobile to desktop"
+      },
+      "1": {
+        "value": "clamp( calc(11 / 16 * 1rem), 0.194vw + calc(10.273 / 16 * 1rem), calc(14 / 16 * 1rem) )",
+        "type": "other",
+        "description": "Scales font-size gradually from mobile to desktop"
+      },
+      "2": {
+        "value": "clamp( calc(13.5 / 16 * 1rem), 0.259vw + calc(12.529 / 16 * 1rem), calc(17.5 / 16 * 1rem) )",
+        "type": "other",
+        "description": "Scales font-size gradually from mobile to desktop"
+      },
+      "3": {
+        "value": "clamp( calc(16 / 16 * 1rem), 0.388vw + calc(14.545 / 16 * 1rem), calc(22 / 16 * 1rem) )",
+        "type": "other",
+        "description": "Scales font-size gradually from mobile to desktop"
+      },
+      "4": {
+        "value": "clamp( calc(19 / 16 * 1rem), 0.55vw + calc(16.938 / 16 * 1rem), calc(27.5 / 16 * 1rem) )",
+        "type": "other",
+        "description": "Scales font-size gradually from mobile to desktop"
+      },
+      "5": {
+        "value": "clamp( calc(23 / 16 * 1rem), 0.744vw + calc(20.21 / 16 * 1rem), calc(34.5 / 16 * 1rem) )",
+        "type": "other",
+        "description": "Scales font-size gradually from mobile to desktop"
+      },
+      "6": {
+        "value": "clamp( calc(27.5 / 16 * 1rem), 1.003vw + calc(23.739 / 16 * 1rem), calc(43 / 16 * 1rem) )",
+        "type": "other",
+        "description": "Scales font-size gradually from mobile to desktop"
+      },
+      "7": {
+        "value": "clamp( calc(33 / 16 * 1rem), 1.327vw + calc(28.024 / 16 * 1rem), calc(53.5 / 16 * 1rem) )",
+        "type": "other",
+        "description": "Scales font-size gradually from mobile to desktop"
+      },
+      "8": {
+        "value": "clamp( calc(40 / 16 * 1rem), 1.748vw + calc(33.445 / 16 * 1rem), calc(67 / 16 * 1rem) )",
+        "type": "other",
+        "description": "Scales font-size gradually from mobile to desktop"
+      },
+      "9": {
+        "value": "clamp( calc(48 / 16 * 1rem), 2.33vw + calc(39.263 / 16 * 1rem), calc(84 / 16 * 1rem) )",
+        "type": "other",
+        "description": "Scales font-size gradually from mobile to desktop"
+      },
+      "10": {
+        "value": "clamp( calc(57.5 / 16 * 1rem), 3.074vw + calc(45.972 / 16 * 1rem), calc(105 / 16 * 1rem) )",
+        "type": "other",
+        "description": "Scales font-size gradually from mobile to desktop"
+      },
+      "11": {
+        "value": "clamp( calc(69 / 16 * 1rem), 4.013vw + calc(53.951 / 16 * 1rem), calc(131 / 16 * 1rem) )",
+        "type": "other",
+        "description": "Scales font-size gradually from mobile to desktop"
+      }
+    }
+  },
+  "fontSize": {
+    "mobile": {
+      "0": {
+        "value": 9.5,
+        "type": "fontSizes"
+      },
+      "1": {
+        "value": 11,
+        "type": "fontSizes"
+      },
+      "2": {
+        "value": 13.5,
+        "type": "fontSizes"
+      },
+      "3": {
+        "value": 16,
+        "type": "fontSizes"
+      },
+      "4": {
+        "value": 19,
+        "type": "fontSizes"
+      },
+      "5": {
+        "value": 23,
+        "type": "fontSizes"
+      },
+      "6": {
+        "value": 27.5,
+        "type": "fontSizes"
+      },
+      "7": {
+        "value": 33,
+        "type": "fontSizes"
+      },
+      "8": {
+        "value": 40,
+        "type": "fontSizes"
+      },
+      "9": {
+        "value": 48,
+        "type": "fontSizes"
+      },
+      "10": {
+        "value": 57.5,
+        "type": "fontSizes"
+      },
+      "11": {
+        "value": 69,
+        "type": "fontSizes"
+      }
+    },
+    "desktop": {
+      "0": {
+        "value": 10.5,
+        "type": "fontSizes"
+      },
+      "1": {
+        "value": 13,
+        "type": "fontSizes"
+      },
+      "2": {
+        "value": 16.5,
+        "type": "fontSizes"
+      },
+      "3": {
+        "value": 20,
+        "type": "fontSizes"
+      },
+      "4": {
+        "value": 25,
+        "type": "fontSizes"
+      },
+      "5": {
+        "value": 31,
+        "type": "fontSizes"
+      },
+      "6": {
+        "value": 38,
+        "type": "fontSizes"
+      },
+      "7": {
+        "value": 47.5,
+        "type": "fontSizes"
+      },
+      "8": {
+        "value": 58.5,
+        "type": "fontSizes"
+      },
+      "9": {
+        "value": 72.5,
+        "type": "fontSizes"
+      },
+      "10": {
+        "value": 89.5,
+        "type": "fontSizes"
+      },
+      "11": {
+        "value": 111,
+        "type": "fontSizes"
+      }
+    },
+    "hd": {
+      "0": {
+        "value": 11.5,
+        "type": "fontSizes"
+      },
+      "1": {
+        "value": 14,
+        "type": "fontSizes"
+      },
+      "2": {
+        "value": 17.5,
+        "type": "fontSizes"
+      },
+      "3": {
+        "value": 22,
+        "type": "fontSizes"
+      },
+      "4": {
+        "value": 27.5,
+        "type": "fontSizes"
+      },
+      "5": {
+        "value": 34.5,
+        "type": "fontSizes"
+      },
+      "6": {
+        "value": 43,
+        "type": "fontSizes"
+      },
+      "7": {
+        "value": 53.5,
+        "type": "fontSizes"
+      },
+      "8": {
+        "value": 67,
+        "type": "fontSizes"
+      },
+      "9": {
+        "value": 84,
+        "type": "fontSizes"
+      },
+      "10": {
+        "value": 105,
+        "type": "fontSizes"
+      },
+      "11": {
+        "value": 131,
+        "type": "fontSizes"
+      }
+    },
+    "theme": {
+      "0": {
+        "value": 11.5,
+        "type": "fontSizes"
+      },
+      "1": {
+        "value": 14,
+        "type": "fontSizes"
+      },
+      "2": {
+        "value": 17.5,
+        "type": "fontSizes"
+      },
+      "3": {
+        "value": 22,
+        "type": "fontSizes"
+      },
+      "4": {
+        "value": 27.5,
+        "type": "fontSizes"
+      },
+      "5": {
+        "value": 34.5,
+        "type": "fontSizes"
+      },
+      "6": {
+        "value": 43,
+        "type": "fontSizes"
+      },
+      "7": {
+        "value": 53.5,
+        "type": "fontSizes"
+      },
+      "8": {
+        "value": 67,
+        "type": "fontSizes"
+      },
+      "9": {
+        "value": 84,
+        "type": "fontSizes"
+      },
+      "10": {
+        "value": 105,
+        "type": "fontSizes"
+      },
+      "11": {
+        "value": 131,
+        "type": "fontSizes"
+      }
+    }
+  },
+  "lineHeight": {
+    "compressed": {
+      "value": "70%",
+      "type": "lineHeights",
+      "description": "The Equinor typeface has a cap-height of 700"
+    },
+    "compliant": {
+      "value": "150%",
+      "type": "lineHeights"
+    }
+  },
+  "fontFamily": {
+    "default": {
+      "value": "Inter",
+      "type": "fontFamilies"
+    }
+  },
+  "fontWeight": {
+    "400": {
+      "value": "Regular",
+      "type": "fontWeights"
+    },
+    "500": {
+      "value": "Medium",
+      "type": "fontWeights"
+    }
+  },
+  "letterSpacing": {
+    "subtitle": {
+      "value": "20%",
+      "type": "letterSpacing"
+    }
+  }
+}
