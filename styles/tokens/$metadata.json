@@ -2,6 +2,9 @@
   "tokenSetOrder": [
     "core",
     "semantic",
-    "dark"
+    "dark",
+    "themes/mobile",
+    "themes/desktop",
+    "themes/full-hd"
   ]
 }

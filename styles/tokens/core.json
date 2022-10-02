@@ -1,66 +1,198 @@
 {
   "scale": {
-    "f0": {
-      "value": "22",
-      "type": "other"
+    "hd": {
+      "f0": {
+        "value": "22",
+        "type": "other"
+      },
+      "n": {
+        "value": "1",
+        "type": "other"
+      },
+      "r": {
+        "value": "1.25",
+        "type": "other"
+      }
     },
-    "n": {
-      "value": "3",
-      "type": "other"
+    "desktop": {
+      "f0": {
+        "value": "20.13",
+        "type": "other"
+      },
+      "n": {
+        "value": "1",
+        "type": "other"
+      },
+      "r": {
+        "value": "1.238",
+        "type": "other"
+      }
     },
-    "r": {
-      "value": "2",
-      "type": "other"
+    "mobile": {
+      "f0": {
+        "value": "16",
+        "type": "other"
+      },
+      "n": {
+        "value": "1",
+        "type": "other"
+      },
+      "r": {
+        "value": "1.2",
+        "type": "other"
+      }
     }
   },
   "fontSize": {
-    "0": {
-      "value": "5*roundTo(({scale.f0}*{scale.r}^(-3/{scale.n})/5),1)",
-      "type": "fontSizes"
+    "mobile": {
+      "0": {
+        "value": "5*roundTo(({scale.mobile.f0}*{scale.mobile.r}^(-3/{scale.mobile.n})/5),1)",
+        "type": "fontSizes"
+      },
+      "1": {
+        "value": "5*roundTo(({scale.mobile.f0}*{scale.mobile.r}^(-2/{scale.mobile.n})/5),1)",
+        "type": "fontSizes"
+      },
+      "2": {
+        "value": "5*roundTo(({scale.mobile.f0}*{scale.mobile.r}^(-1/{scale.mobile.n})/5),1)",
+        "type": "fontSizes"
+      },
+      "3": {
+        "value": "5*roundTo(({scale.mobile.f0}*{scale.mobile.r}^(0/{scale.mobile.n})/5),1)",
+        "type": "fontSizes"
+      },
+      "4": {
+        "value": "5*roundTo(({scale.mobile.f0}*{scale.mobile.r}^(1/{scale.mobile.n})/5),1)",
+        "type": "fontSizes"
+      },
+      "5": {
+        "value": "5*roundTo(({scale.mobile.f0}*{scale.mobile.r}^(2/{scale.mobile.n})/5),1)",
+        "type": "fontSizes"
+      },
+      "6": {
+        "value": "5*roundTo(({scale.mobile.f0}*{scale.mobile.r}^(3/{scale.mobile.n})/5),1)",
+        "type": "fontSizes"
+      },
+      "7": {
+        "value": "5*roundTo(({scale.mobile.f0}*{scale.mobile.r}^(4/{scale.mobile.n})/5),1)",
+        "type": "fontSizes"
+      },
+      "8": {
+        "value": "5*roundTo(({scale.mobile.f0}*{scale.mobile.r}^(5/{scale.mobile.n})/5),1)",
+        "type": "fontSizes"
+      },
+      "9": {
+        "value": "5*roundTo(({scale.mobile.f0}*{scale.mobile.r}^(6/{scale.mobile.n})/5),1)",
+        "type": "fontSizes"
+      },
+      "10": {
+        "value": "5*roundTo(({scale.mobile.f0}*{scale.mobile.r}^(7/{scale.mobile.n})/5),1)",
+        "type": "fontSizes"
+      },
+      "11": {
+        "value": "5*roundTo(({scale.mobile.f0}*{scale.mobile.r}^(8/{scale.mobile.n})/5),1)",
+        "type": "fontSizes"
+      }
     },
-    "1": {
-      "value": "5*roundTo(({scale.f0}*{scale.r}^(-2/{scale.n})/5),1)",
-      "type": "fontSizes"
+    "desktop": {
+      "0": {
+        "value": "5*roundTo(({scale.desktop.f0}*{scale.desktop.r}^(-3/{scale.desktop.n})/5),1)",
+        "type": "fontSizes"
+      },
+      "1": {
+        "value": "5*roundTo(({scale.desktop.f0}*{scale.desktop.r}^(-2/{scale.desktop.n})/5),1)",
+        "type": "fontSizes"
+      },
+      "2": {
+        "value": "5*roundTo(({scale.desktop.f0}*{scale.desktop.r}^(-1/{scale.desktop.n})/5),1)",
+        "type": "fontSizes"
+      },
+      "3": {
+        "value": "5*roundTo(({scale.desktop.f0}*{scale.desktop.r}^(0/{scale.desktop.n})/5),1)",
+        "type": "fontSizes"
+      },
+      "4": {
+        "value": "5*roundTo(({scale.desktop.f0}*{scale.desktop.r}^(1/{scale.desktop.n})/5),1)",
+        "type": "fontSizes"
+      },
+      "5": {
+        "value": "5*roundTo(({scale.desktop.f0}*{scale.desktop.r}^(2/{scale.desktop.n})/5),1)",
+        "type": "fontSizes"
+      },
+      "6": {
+        "value": "5*roundTo(({scale.desktop.f0}*{scale.desktop.r}^(3/{scale.desktop.n})/5),1)",
+        "type": "fontSizes"
+      },
+      "7": {
+        "value": "5*roundTo(({scale.desktop.f0}*{scale.desktop.r}^(4/{scale.desktop.n})/5),1)",
+        "type": "fontSizes"
+      },
+      "8": {
+        "value": "5*roundTo(({scale.desktop.f0}*{scale.desktop.r}^(5/{scale.desktop.n})/5),1)",
+        "type": "fontSizes"
+      },
+      "9": {
+        "value": "5*roundTo(({scale.desktop.f0}*{scale.desktop.r}^(6/{scale.desktop.n})/5),1)",
+        "type": "fontSizes"
+      },
+      "10": {
+        "value": "5*roundTo(({scale.desktop.f0}*{scale.desktop.r}^(7/{scale.desktop.n})/5),1)",
+        "type": "fontSizes"
+      },
+      "11": {
+        "value": "5*roundTo(({scale.desktop.f0}*{scale.desktop.r}^(8/{scale.desktop.n})/5),1)",
+        "type": "fontSizes"
+      }
     },
-    "2": {
-      "value": "5*roundTo(({scale.f0}*{scale.r}^(-1/{scale.n})/5),1)",
-      "type": "fontSizes"
-    },
-    "3": {
-      "value": "5*roundTo(({scale.f0}*{scale.r}^(0/{scale.n})/5),1)",
-      "type": "fontSizes"
-    },
-    "4": {
-      "value": "5*roundTo(({scale.f0}*{scale.r}^(1/{scale.n})/5),1)",
-      "type": "fontSizes"
-    },
-    "5": {
-      "value": "5*roundTo(({scale.f0}*{scale.r}^(2/{scale.n})/5),1)",
-      "type": "fontSizes"
-    },
-    "6": {
-      "value": "5*roundTo(({scale.f0}*{scale.r}^(3/{scale.n})/5),1)",
-      "type": "fontSizes"
-    },
-    "7": {
-      "value": "5*roundTo(({scale.f0}*{scale.r}^(4/{scale.n})/5),1)",
-      "type": "fontSizes"
-    },
-    "8": {
-      "value": "5*roundTo(({scale.f0}*{scale.r}^(5/{scale.n})/5),1)",
-      "type": "fontSizes"
-    },
-    "9": {
-      "value": "5*roundTo(({scale.f0}*{scale.r}^(6/{scale.n})/5),1)",
-      "type": "fontSizes"
-    },
-    "10": {
-      "value": "5*roundTo(({scale.f0}*{scale.r}^(7/{scale.n})/5),1)",
-      "type": "fontSizes"
-    },
-    "11": {
-      "value": "5*roundTo(({scale.f0}*{scale.r}^(8/{scale.n})/5),1)",
-      "type": "fontSizes"
+    "hd": {
+      "0": {
+        "value": "5*roundTo(({scale.hd.f0}*{scale.hd.r}^(-3/{scale.hd.n})/5),1)",
+        "type": "fontSizes"
+      },
+      "1": {
+        "value": "5*roundTo(({scale.hd.f0}*{scale.hd.r}^(-2/{scale.hd.n})/5),1)",
+        "type": "fontSizes"
+      },
+      "2": {
+        "value": "5*roundTo(({scale.hd.f0}*{scale.hd.r}^(-1/{scale.hd.n})/5),1)",
+        "type": "fontSizes"
+      },
+      "3": {
+        "value": "5*roundTo(({scale.hd.f0}*{scale.hd.r}^(0/{scale.hd.n})/5),1)",
+        "type": "fontSizes"
+      },
+      "4": {
+        "value": "5*roundTo(({scale.hd.f0}*{scale.hd.r}^(1/{scale.hd.n})/5),1)",
+        "type": "fontSizes"
+      },
+      "5": {
+        "value": "5*roundTo(({scale.hd.f0}*{scale.hd.r}^(2/{scale.hd.n})/5),1)",
+        "type": "fontSizes"
+      },
+      "6": {
+        "value": "5*roundTo(({scale.hd.f0}*{scale.hd.r}^(3/{scale.hd.n})/5),1)",
+        "type": "fontSizes"
+      },
+      "7": {
+        "value": "5*roundTo(({scale.hd.f0}*{scale.hd.r}^(4/{scale.hd.n})/5),1)",
+        "type": "fontSizes"
+      },
+      "8": {
+        "value": "5*roundTo(({scale.hd.f0}*{scale.hd.r}^(5/{scale.hd.n})/5),1)",
+        "type": "fontSizes"
+      },
+      "9": {
+        "value": "5*roundTo(({scale.hd.f0}*{scale.hd.r}^(6/{scale.hd.n})/5),1)",
+        "type": "fontSizes"
+      },
+      "10": {
+        "value": "5*roundTo(({scale.hd.f0}*{scale.hd.r}^(7/{scale.hd.n})/5),1)",
+        "type": "fontSizes"
+      },
+      "11": {
+        "value": "5*roundTo(({scale.hd.f0}*{scale.hd.r}^(8/{scale.hd.n})/5),1)",
+        "type": "fontSizes"
+      }
     }
   },
   "lineHeight": {
@@ -76,7 +208,7 @@
   },
   "fontFamily": {
     "default": {
-      "value": "Equinor",
+      "value": "Inter",
       "type": "fontFamilies"
     }
   },

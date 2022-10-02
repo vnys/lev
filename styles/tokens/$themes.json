@@ -5,7 +5,10 @@
     "selectedTokenSets": {
       "core": "source",
       "semantic": "enabled",
-      "dark": "disabled"
+      "dark": "disabled",
+      "themes/mobile": "disabled",
+      "themes/desktop": "disabled",
+      "themes/full-hd": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -15,7 +18,10 @@
     "selectedTokenSets": {
       "core": "source",
       "semantic": "enabled",
-      "dark": "enabled"
+      "dark": "enabled",
+      "themes/mobile": "disabled",
+      "themes/desktop": "disabled",
+      "themes/full-hd": "disabled"
     },
     "$figmaStyleReferences": {}
   }
