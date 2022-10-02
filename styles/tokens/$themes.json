@@ -24,5 +24,18 @@
       "themes/full-hd": "disabled"
     },
     "$figmaStyleReferences": {}
+  },
+  {
+    "id": "7adc7841148aab0ca8cf7f60318073a4b296b8f9",
+    "name": "default",
+    "selectedTokenSets": {
+      "core": "source",
+      "semantic": "enabled",
+      "dark": "disabled",
+      "themes/mobile": "disabled",
+      "themes/desktop": "enabled",
+      "themes/full-hd": "disabled"
+    },
+    "$figmaStyleReferences": {}
   }
 ]
