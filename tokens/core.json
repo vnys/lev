@@ -1,0 +1,163 @@
+{
+  "scale": {
+    "f0": {
+      "value": "22",
+      "type": "other"
+    },
+    "n": {
+      "value": "3",
+      "type": "other"
+    },
+    "r": {
+      "value": "2",
+      "type": "other"
+    }
+  },
+  "fontSize": {
+    "0": {
+      "value": "5*roundTo(({scale.f0}*{scale.r}^(-3/{scale.n})/5),1)",
+      "type": "fontSizes"
+    },
+    "1": {
+      "value": "5*roundTo(({scale.f0}*{scale.r}^(-2/{scale.n})/5),1)",
+      "type": "fontSizes"
+    },
+    "2": {
+      "value": "5*roundTo(({scale.f0}*{scale.r}^(-1/{scale.n})/5),1)",
+      "type": "fontSizes"
+    },
+    "3": {
+      "value": "5*roundTo(({scale.f0}*{scale.r}^(0/{scale.n})/5),1)",
+      "type": "fontSizes"
+    },
+    "4": {
+      "value": "5*roundTo(({scale.f0}*{scale.r}^(1/{scale.n})/5),1)",
+      "type": "fontSizes"
+    },
+    "5": {
+      "value": "5*roundTo(({scale.f0}*{scale.r}^(2/{scale.n})/5),1)",
+      "type": "fontSizes"
+    },
+    "6": {
+      "value": "5*roundTo(({scale.f0}*{scale.r}^(3/{scale.n})/5),1)",
+      "type": "fontSizes"
+    },
+    "7": {
+      "value": "5*roundTo(({scale.f0}*{scale.r}^(4/{scale.n})/5),1)",
+      "type": "fontSizes"
+    },
+    "8": {
+      "value": "5*roundTo(({scale.f0}*{scale.r}^(5/{scale.n})/5),1)",
+      "type": "fontSizes"
+    },
+    "9": {
+      "value": "5*roundTo(({scale.f0}*{scale.r}^(6/{scale.n})/5),1)",
+      "type": "fontSizes"
+    },
+    "10": {
+      "value": "5*roundTo(({scale.f0}*{scale.r}^(7/{scale.n})/5),1)",
+      "type": "fontSizes"
+    },
+    "11": {
+      "value": "5*roundTo(({scale.f0}*{scale.r}^(8/{scale.n})/5),1)",
+      "type": "fontSizes"
+    }
+  },
+  "lineHeight": {
+    "compressed": {
+      "value": "70%",
+      "type": "lineHeights",
+      "description": "The Equinor typeface has a cap-height of 700"
+    },
+    "compliant": {
+      "value": "150%",
+      "type": "lineHeights"
+    }
+  },
+  "fontFamily": {
+    "default": {
+      "value": "Equinor",
+      "type": "fontFamilies"
+    }
+  },
+  "fontWeight": {
+    "400": {
+      "value": "Regular",
+      "type": "fontWeights"
+    },
+    "500": {
+      "value": "Medium",
+      "type": "fontWeights"
+    }
+  },
+  "letterSpacing": {
+    "subtitle": {
+      "value": "20%",
+      "type": "letterSpacing"
+    }
+  },
+  "color": {
+    "brand": {
+      "EnergyRed": {
+        "value": "#ff1243",
+        "type": "color"
+      },
+      "MossGreen": {
+        "value": "#007079",
+        "type": "color"
+      },
+      "SlateBlue": {
+        "value": "#243746",
+        "type": "color"
+      },
+      "MistBlue": {
+        "value": "#dff5ff",
+        "type": "color"
+      },
+      "LichenGreen": {
+        "value": "#e6faec",
+        "type": "color"
+      },
+      "SpruceWood": {
+        "value": "#ffe7d6",
+        "type": "color"
+      }
+    },
+    "neutrals": {
+      "1": {
+        "value": "#fff",
+        "type": "color"
+      },
+      "2": {
+        "value": "#ccc",
+        "type": "color"
+      },
+      "3": {
+        "value": "#999",
+        "type": "color"
+      },
+      "4": {
+        "value": "#666",
+        "type": "color"
+      },
+      "5": {
+        "value": "#333",
+        "type": "color"
+      },
+      "6": {
+        "value": "#000",
+        "type": "color"
+      }
+    }
+  },
+  "textDecoration": {
+    "underline": {
+      "value": "underline",
+      "type": "textDecoration"
+    },
+    "none": {
+      "value": "none",
+      "type": "textDecoration"
+    }
+  }
+}

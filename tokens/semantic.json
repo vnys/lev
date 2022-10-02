@@ -1,0 +1,102 @@
+{
+  "typography": {
+    "leading": {
+      "value": {
+        "lineHeight": "{lineHeight.compliant}",
+        "fontSize": "{fontSize.5}",
+        "fontFamily": "{fontFamily.default}",
+        "fontWeight": "{fontWeight.400}"
+      },
+      "type": "typography"
+    },
+    "h1": {
+      "value": {
+        "fontFamily": "{fontFamily.default}",
+        "fontWeight": "{fontWeight.500}",
+        "lineHeight": "{lineHeight.compressed}",
+        "fontSize": "{fontSize.9}"
+      },
+      "type": "typography"
+    },
+    "h2": {
+      "value": {
+        "fontFamily": "{fontFamily.default}",
+        "fontWeight": "{fontWeight.500}",
+        "lineHeight": "{lineHeight.compressed}",
+        "fontSize": "{fontSize.5}",
+        "letterSpacing": "{letterSpacing.subtitle}"
+      },
+      "type": "typography"
+    },
+    "h3": {
+      "value": {
+        "fontFamily": "{fontFamily.default}",
+        "fontWeight": "{fontWeight.500}",
+        "lineHeight": "{lineHeight.compressed}",
+        "fontSize": "{fontSize.3}",
+        "letterSpacing": "{letterSpacing.subtitle}"
+      },
+      "type": "typography"
+    },
+    "paragraph": {
+      "value": {
+        "fontFamily": "{fontFamily.default}",
+        "fontWeight": "{fontWeight.400}",
+        "lineHeight": "{lineHeight.compliant}",
+        "fontSize": "{fontSize.3}"
+      },
+      "type": "typography"
+    },
+    "small": {
+      "value": {
+        "fontFamily": "{fontFamily.default}",
+        "fontWeight": "{fontWeight.400}",
+        "lineHeight": "{lineHeight.compliant}",
+        "fontSize": "{fontSize.2}"
+      },
+      "type": "typography"
+    }
+  },
+  "color": {
+    "text": {
+      "default": {
+        "value": "{color.neutrals.5}",
+        "type": "color"
+      },
+      "link": {
+        "value": "{color.brand.MossGreen}",
+        "type": "color"
+      },
+      "header": {
+        "value": "{color.neutrals.5}",
+        "type": "color"
+      }
+    },
+    "table": {
+      "cell": {
+        "value": "{color.neutrals.1}",
+        "type": "color"
+      },
+      "border": {
+        "value": "{color.neutrals.6}",
+        "type": "color"
+      }
+    },
+    "page": {
+      "bg": {
+        "value": "{color.neutrals.1}",
+        "type": "color"
+      }
+    }
+  },
+  "textDecoration": {
+    "link": {
+      "value": "{textDecoration.underline}",
+      "type": "textDecoration"
+    },
+    "default": {
+      "value": "{textDecoration.none}",
+      "type": "textDecoration"
+    }
+  }
+}
